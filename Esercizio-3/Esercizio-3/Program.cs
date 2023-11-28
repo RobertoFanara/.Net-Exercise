@@ -38,6 +38,9 @@ switch (op)
         result = numberA / numberB;
         Console.WriteLine($"Bravissimo, il risultato è: {result}");
         break;
+
+    default: Console.WriteLine("Operatore non valido.");
+        break;
 }
 
 

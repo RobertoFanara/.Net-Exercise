@@ -16,3 +16,12 @@ foreach (string input in userInputList)
 {
     Console.WriteLine(input);
 }
+
+Console.WriteLine();
+
+userInputList.Reverse();
+
+foreach (string input in userInputList)
+{
+    Console.WriteLine(input);
+}
